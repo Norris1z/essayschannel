@@ -1,0 +1,124 @@
+section {
+    margin-bottom: 1.571em;
+    margin-top: 1.5em;
+}
+.hero-1, .hero-subtitle, .hero-v2-price {
+  min-height: 35px;
+}
+ul.products .product::after {
+    content: '';
+    border-right: 1px solid #ee0000;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    height: 80%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.vertical-menu > .menu-item > a, .vertical-menu .dropdown-menu > .menu-item > a {
+    display: block;
+    border-bottom: 1px solid #ddd;
+    padding: 0.3608em 0.357em;
+    font-size: .91em;
+}
+.vertical-menu .yamm-content ul > li > a, .navbar-primary #header-v3 .navbar-nav .dropdown-menu .yamm-content ul > li > a, .primary-nav .nav-inline .dropdown-menu .yamm-content ul > li > a, .navbar-primary .departments-menu .dropdown-menu .yamm-content ul > li > a {
+    padding: 0.135em 1.429em;
+    font-size: .9em;
+}
+
+.hero-1 {
+    font-size: 3.0125em;
+    color: #333e48;
+    font-weight: normal;
+}
+@media(min-width:768px) {
+.home-v1-slider, .home-v2-slider, .home-v3-slider {
+  	height: 350px;
+}
+}
+.vertical-menu > li.list-group-item > a, .vertical-menu > li.list-group-item > span {
+    font-size: 1.0143em;
+    line-height: 1.125em;
+    font-weight: normal;
+    padding: 0.771em 1.25em;
+    display: block;
+}
+.copyright-bar {
+    background-color: #1248b5;
+
+}
+.loop-product {
+    color: #ffffff;
+}
+li.product .loop-product-categories a, .section-onsale-product .onsale-product .loop-product-categories a, .section-onsale-product-carousel .onsale-product-carousel .onsale-product .onsale-product-content .loop-product-categories a, .products-carousel .owl-item .product .loop-product-categories a {
+    color: #ffffff;
+}
+.loop-product-categories {
+   color: #ffffff;
+}
+
+.section-header {
+    border-bottom: 2px solid #089de3;
+}
+.section.section-product-cards-carousel header ul.nav .nav-link {
+    font-size: 1.071em;
+    line-height: 0.0em;
+    color: #f17e0a;
+}
+.single-product  {
+    border: 1px solid #068e2b;
+}
+.wc-tab  {
+  border: 1px solid #068e2b;
+}
+.header-v1 .navbar-search .input-group .btn {
+	line-height: 1em;
+    padding: .875em 1.53em;
+    border-radius: 0;
+}
+.header-v1 .navbar-search .input-group .form-control {
+    background: #fff;
+    line-height: 1em;
+    padding: .9em 1.134em;
+    border-radius: 0;
+}
+.vertical-menu > li:first-child {
+  border-radius: 0;
+}
+/************banner colors ********/
+.section-accessories header h2 {
+  background-color: #519105;
+}
+.section-accessories header {
+    border-bottom: 2px solid #519105;
+}
+.section-laptops header h2 {
+  background-color: #cf3202;
+}
+.section-laptops header {
+    border-bottom: 2px solid #cf3202;
+}
+.section-desktops header h2 {
+  background-color: orange;
+}
+.section-desktops header {
+    border-bottom: 2px solid orange;
+}
+.section-apple-products header h2 {
+  background-color: #c6c6c6;
+}
+.section-apple-products header {
+    border-bottom: 2px solid #c6c6c6;
+}
+.single-product-title-divider { 
+{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 4px solid #5cb85c;
+}
+  
