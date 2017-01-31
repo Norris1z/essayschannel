@@ -54,7 +54,7 @@
                                   $minutes = intval($difference / 60);
                                   $difference = $difference % 60;
                                   $seconds = intval($difference);
-                                  $remaining_time = $days.":d, ".$hours.":h, ".$minutes.":m "; 
+                                  $remaining_time = $days.":d, ".$hours.":h, ".$minutes.":m ";
                                 echo $remaining_time ?></span></td>
               <td><span>{{$order->no_of_pages}}</span></td>
               <td>{{$order->client_price}}</td>
@@ -81,11 +81,13 @@
         @endif
     <h4 class="heading_a uk-margin-bottom">My Current Orders</h4>
      <div class="uk-width-medium-1-5 uk-grid-margin uk-row-first">
+
                             <a class="md-btn md-btn-success md-btn-block md-btn-wave-light waves-effect waves-button waves-light" href="{{url('new_order')}}" style="margin-left:800px;">Create New Order</a>
                         </div>
     <div class="md-card uk-margin-medium-bottom">
-   
+
       <div class="md-card-content">
+
         <table id="dt_individual_search" class="uk-table uk-table-striped" cellspacing="0" width="100%" id="thetable">
           <thead>
             <tr style="background:#eeeeee">
@@ -127,7 +129,7 @@
                                   $minutes = intval($difference / 60);
                                   $difference = $difference % 60;
                                   $seconds = intval($difference);
-                                  $remaining_time = $days.":d, ".$hours.":h, ".$minutes.":m "; 
+                                  $remaining_time = $days.":d, ".$hours.":h, ".$minutes.":m ";
                                 echo $remaining_time ?></span></td>
               <td><span>{{$order->no_of_pages}}</span></td>
               <td>{{$order->client_price}}</td>
@@ -150,16 +152,16 @@
 {!! Html::script('admin/assets/js/pages/plugins_datatables.min.js') !!}
 <script type="text/javascript" charset="utf-8">
   jQuery('#master').on('click', function(e) {
-  if($(this).is(':checked',true))  
+  if($(this).is(':checked',true))
   {
-      $(".sub_chk").prop('checked', true);  
-  }  
-  else  
-  {  
-      $(".sub_chk").prop('checked',false);  
-  }  
+      $(".sub_chk").prop('checked', true);
+  }
+  else
+  {
+      $(".sub_chk").prop('checked',false);
+  }
   });
-  
-  
+
+
 </script>
 @stop
